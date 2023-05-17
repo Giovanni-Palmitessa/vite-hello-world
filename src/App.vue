@@ -1,9 +1,15 @@
 <script>
+  import titleComponent from "./components/titleComponent.vue"
 
+  export default {
+    components: {
+      titleComponent
+    }
+  }
 </script>
 
 <template>
-  <h1>La mia prima app con Vite!</h1>
+  <titleComponent />
 </template>
 
 <style scoped>
