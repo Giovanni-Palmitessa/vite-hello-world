@@ -75,6 +75,14 @@ button:focus-visible {
   text-align: center;
 }
 
+.container{
+  background-color: aquamarine;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
